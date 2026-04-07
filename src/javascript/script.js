@@ -41,6 +41,10 @@ document.querySelectorAll('.link-inicio, .link-sobre, .link-contato, .link-curri
   link.addEventListener('click', (e) => {
     e.preventDefault();
 
+    // 🔥 FECHA MENU MOBILE
+    document.getElementById('mobile_menu').classList.remove('active');
+    document.getElementById('mobile_btn').querySelector('i').classList.remove('fa-x');
+
     if (link.classList.contains('link-inicio')) {
       trocarPagina('inicio');
 
@@ -87,4 +91,13 @@ document.getElementById('btn-material').addEventListener('click', function(e) {
   if (!protegerAcesso('material_apoio')) return;
 
   trocarPagina('material_apoio');
+});
+
+
+// 🍔 MENU HAMBURGUER (jQuery)
+$(document).ready(function(){
+    $('#mobile_btn').on('click', function(){
+        $('#mobile_menu').toggleClass('active');
+        $('#mobile_btn').find('i').toggleClass('fa-x');        
+    });        
 });

@@ -106,7 +106,7 @@ header{
         display: block;
         border: none;
         background-color: transparent;
-        color: rgb(0, 132, 255);
+        color: #ffffff;
         font-size: 1.6rem;
         cursor: pointer;
     }
