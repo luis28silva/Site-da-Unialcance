@@ -1,0 +1,191 @@
+
+#contato{
+    background-color: #001429;
+    font-size: 1rem;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.contato-hero {
+    background-image: url(../imagens/Contato/fundo_contato.webp); /* coloque a foto da sala */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.contato-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.contato-hero p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 6px black;
+}
+
+ 
+
+
+
+
+
+.info-contato-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+
+
+
+.contato-contato{
+  background-color: #00bfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    width: 50%;
+    height: 70vh; /*qual a funcao deste comando */
+}
+
+.contato-end {
+  padding: 20px;
+}
+
+.contato-end .item {
+  padding: 15px 0;
+  border-bottom: 1px solid #001429;
+}
+
+.contato-end .item:last-child {
+  border-bottom: none;
+}
+
+.contato-end h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color:  #001429; /* pode usar tua cor principal */
+}
+
+.contato-end p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+
+
+
+
+
+.contato-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    width: 50%;
+    height: 70vh; /*qual a funcao deste comando */
+}
+
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+      width: 100%;
+  max-width: 500px; /* controla o tamanho máximo */
+}
+
+.mensagem-form{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+.contato-formulario input,
+.contato-formulario textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid rgb(0, 132, 255);
+  background-color: transparent;
+  color: white;
+}
+
+.contato-formulario input:focus,
+.contato-formulario textarea:focus {
+    outline: none;
+    border: 1px solid rgb(0, 132, 255);; /* verde escuro suave */
+    box-shadow: 0 0 3px #1bc6ff; /* brilho leve */
+  
+}
+.contato-formulario button {
+  width: 150px;
+  align-self: flex-end;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color, color 1s;
+}
+
+
+
+.contato-formulario button:hover {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  display: block;
+ 
+}
+
+
+
+
+@media (max-width: 814px) {
+  .info-contato-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contato-imagem,
+  .contato-info {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contato-imagem {
+    height: 250px; /* menor altura no celular */
+  }
+
+  .contato-info {
+    padding: 0 20px; /* margem lateral no conteúdo */
+  }
+
+  .informacoes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contato-formulario {
+    width: 100%;
+    max-width: 100%;
+  }
+}

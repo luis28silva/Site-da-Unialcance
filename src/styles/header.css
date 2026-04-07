@@ -1,0 +1,152 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#ff0000;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    padding: 28px 8%;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_logo{
+    width: 140px;
+    height: auto;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav_item a { 
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav_item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #00bfff; /* Pode trocar pela cor que quiser */
+    transition: width 0.3s ease;
+}
+
+.nav_item a:hover::after {
+    width: 100%;
+}
+
+.btn-cursos{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002b55;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-cursos:hover{
+    background-color: #013a72;
+}
+
+.nav_item a:hover::after {
+    width: 100%;
+}
+
+#mobile_btn{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 886px) {
+   
+    #navbar .btn-cursos{
+        display: none;  
+    }
+    .nav_list{
+       gap: 28px;
+}
+}
+
+
+
+@media screen and (max-width: 667px) {
+    .nav_list,
+    #navbar .btn-cursos{
+        display: none;  
+    }
+
+    #mobile_btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: rgb(0, 132, 255);
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+
+
+
+    #mobile_menu {
+        display: none;
+        position: absolute;
+        top: 100px; /* Ajuste conforme necessário */
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com 80% de transparência */
+        padding: 20px 0;
+        text-align: center;
+        backdrop-filter: blur(5px); /* Deixa o fundo um pouco desfocado */
+        z-index: 1000; /* Garante que fique acima de outros elementos */
+    }
+
+
+
+
+    #mobile_menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list{
+        display: flex; 
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav_item{
+        list-style: none;
+        text-align: center;
+
+    }
+    
+}
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+/*
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main{
+    height: 80vh;
+}
+*/
+
+:root{
+    --cor1: #0e0c0c;
+    --cor2: #ce0000;
+    --cor3: #fff;
+    --cor4: #0191ff; 
+
+}
+
+i {
+    background-color: transparent;
+}
+
+
+footer{
+    background-color: var(--cor1);
+    width: 100%;
+    color: var(--cor3);
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts img{
+    width: 150px;
+    height: auto;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem; /*espaçamento entre eles */
+    margin-top: 1.5rem;
+} 
+
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    height: 2rem; /*este comando é so para aumentar a área em volta do botão */
+    width: 2rem; /*este comando é so para aumentar a área em volta do botão */
+    color:#fff    
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1.6rem;
+    color: var(--cor4)
+}
+
+#footer_social_media .footer-link:hover{
+    opacity: 0.5;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /*Este gap é para deixar espaço entre as linhas */
+    list-style: none;
+}
+
+.footer-list .footer-link{
+    color: #0191ff;
+    transition: all 0.5s;
+}
+
+.footer-list .footer-link:hover{
+    color: #78c4ff;
+}
+
+
+
+#newsletter-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 2px;
+}
+
+
+#footer_newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* mesmo que os outros */
+}
+
+#footer_newsletter h3 {
+  font-size: 1.1rem;
+}
+
+#footer_newsletter p {
+  color: #0191ff;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+#newsletter-form input[type="email"] {
+  background-color: rgb(0, 0, 0);
+  padding:  0.75rem;
+  border-radius: 4px;
+  border: none; 
+  flex: 1;
+}
+
+#Recados input{
+    all: unset;
+    width: 100%; 
+}
+
+button i{
+    font-size: 1.4rem;
+}
+
+#newsletter-form button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#footer_atrativos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_atrativos p{
+color: #0191ff;
+}
+
+#Recados{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(0, 0, 0);
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:768px) {
+    #footer_content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+    @media screen and (max-width:426px) {
+        #footer_content{
+            grid-template-columns: repeat(1, 1fr);
+            padding: 3rem 2rem;
+        }
+    
+}

@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unialcance Exemplo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="src/styles/global.css">
+  <link rel="stylesheet" href="src/styles/contato.css">
+  <link rel="stylesheet" href="src/styles/inicio.css">
+  <link rel="stylesheet" href="src/styles/header.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
+  <link rel="stylesheet" href="src/styles/professores.css">
+  <link rel="stylesheet" href="src/styles/hero.css">
+  <link rel="stylesheet" href="src/styles/depoimentos.css">
+  <link rel="stylesheet" href="src/styles/formados.css">
+  <link rel="stylesheet" href="src/styles/curriculos.css">
+  <link rel="stylesheet" href="src/styles/sobre.css">
+  <link rel="stylesheet" href="src/styles/biblioteca.css">
+  <link rel="stylesheet" href="src/styles/cursos.css">
+  <link rel="stylesheet" href="src/styles/certificado.css">
+  <link rel="stylesheet" href="src/styles/material_apoio.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+      <img id="nav_logo" src="src/imagens/Logos/logo_branco_.png" alt="Logotipo">
+      <ul class="nav_list">
+        <li class="nav_item"><a href="#" class="link-inicio">Início</a></li>
+        <li class="nav_item"><a href="#" class="link-sobre">Sobre a Unialcance</a></li>
+        <li class="nav_item"><a href="#" class="link-contato">Contato</a></li>
+        <li class="nav_item"><a href="#" class="link-curriculo">Currículo dos Alunos</a></li>
+      </ul>
+      <button class="btn-cursos link-cursos">Cursos</button>
+
+      <button id="mobile_btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav_item"><a href="#" class="link-inicio">Início</a></li>
+        <li class="nav_item"><a href="#" class="link-curriculo">Currículos</a></li>
+        <li class="nav_item"><a href="#" class="link-cursos">Cursos</a></li>
+        <li class="nav_item"><a href="#" class="link-sobre">Sobre</a></li>
+        <li class="nav_item"><a href="#" class="link-contato">Contato</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main id="conteudo">
+
+    <section id="inicio" class="pagina active container">
+
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Bem-vindo à melhor escolha para o seu futuro!</h1>
+          <p>Profissionalize-se com os melhores cursos.</p>
+          <a href="#" class="cta-button link-cursos">Saiba Mais</a>
+        </div>
+      </section>
+      <section id="home">
+        <div class="icones-container">
+          <h3 class="titulo-icones">Explore nossos recursos</h3>
+
+          <a href="#" class="icone-item" id="btn-biblioteca">
+            <i class="fa-regular fa-address-book"></i>
+            <p>Biblioteca</p>
+          </a>
+
+          <a href="#" class="icone-item" id="btn-professores">
+            <i class="fa-regular fa-chess-knight"></i>
+            <p>Nossos <br> Professores</p>
+          </a>
+
+          <a href="#" class="icone-item" id="btn-certificado">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <p>Nosso <br>Certificado</p>
+          </a>
+
+          <a href="#" class="icone-item" id="btn-material">
+            <i class="fa-regular fa-file-pdf"></i>
+            <p>Material <br> de Apoio</p>
+          </a>
+
+        </div>
+        <div id="apresentacao">
+
+          <div class="apresentacao-texto">
+            <h1 class="title">
+              Um excelente centro de ensino <br>
+              para todas as idades.
+            </h1>
+
+            <p>
+              Nossa escola é um centro de aprendizado e inovação, onde professores qualificados preparam alunos para os
+              desafios do mundo moderno. Mais que transmitir conhecimento, cultivamos valores, incentivamos a
+              criatividade e promovemos o crescimento integral, em um ambiente acolhedor e com recursos modernos para
+              uma jornada educacional transformadora.
+            </p>
+            <a href="#" class="btn_apresentacao link-sobre">História</a>
+          </div>
+
+        </div>
+
+        <div id="video">
+          <video autoplay loop muted>
+            <source src="src/videos/video1.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+          </video>
+        </div>
+      </section>
+
+      <section id="galeria-turmas">
+        <div class="titulo-galeria">
+          <h2 class="section-title">Turmas formadas no primeiro semestre 2026</h2>
+          <p>Cada turma é um capítulo especial na nossa história. Parabéns a todos os formados por essa conquista!</p>
+        </div>
+
+        <div class="carrossel-container">
+
+          <button class="seta esquerda"><i class="fas fa-chevron-left"></i></button>
+
+
+          <div class="carrossel-wrapper">
+
+            <div class="carrossel">
+
+              <div class="turma">
+                <img src="src/imagens/Formados/fomados1.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Maio 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. Carlos Souza</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados3.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Janeiro 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. João Silva</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados3.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Maio 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. Carlos Souza</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados5.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Fevereiro 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. Carlos Magno</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados6.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Janeiro 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. João Silva</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados7.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Janeiro 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. João Silva</p>
+                </div>
+              </div>
+
+              <div class="turma">
+                <img src="src/imagens/Formados/formados5.jpg" alt="Turma">
+                <div class="turma-info">
+                  <p><strong>Turma Janeiro 2024</strong> <i class="fa-solid fa-heart"></i></p>
+                  <p>Prof. João Silva</p>
+                </div>
+              </div>
+
+              <!-- Adicione mais turmas aqui -->
+            </div>
+          </div>
+
+          <button class="seta direita"><i class="fas fa-chevron-right"></i></button>
+
+        </div>
+      </section>
+
+      <section id="depoimentos">
+        <img src="src/imagens/Depoimentos/foto_depoimento.webp" id="depoimentos_alunos"
+          alt="Imagens de alunos abraçados">
+
+        <div id="depoimentos_content">
+          <h3 class="section-subtitle">O que os alunos falam sobre nós!</h3>
+
+          <div class="feedback active">
+            <img src="src/imagens/depoimentos/dep3.webp" class="feedback-avatar" alt="imagem de depoimentos">
+            <div class="feedback-content">
+              <h5>Larissa Martins, 18 anos
+                <span>
+                  ★★★★☆
+                </span>
+              </h5>
+              <p>"Depois do curso, percebi como a forma de se comunicar faz diferença. Hoje trabalho na recepção de uma
+                clínica e aplico tudo o que aprendi na prática!"</p>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="src/imagens/depoimentos/dep2.webp" class="feedback-avatar" alt="imagem de depoimentos">
+            <div class="feedback-content">
+              <h5>Katia Suma, 19 anos
+                <span>
+                  ★★★★☆
+                </span>
+              </h5>
+              <p>"Fazer o curso de Assistente Administrativo foi a melhor decisão que tomei! Consegui meu primeiro
+                emprego logo após me formar e hoje tenho muito mais segurança e conhecimento no dia a dia do trabalho."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="cursos" class="pagina">
+      <div class="cursos-hero">
+        <h1>Cursos Unialcance</h1>
+        <p>Conheça os curosos oferecidos pela Unialcance.</p>
+      </div>
+      <div class="cursos-grid">
+
+        <!-- COLUNA 1 -->
+        <div class="coluna-cursos">
+
+
+          <div class="accordion">
+            <button class="accordion-header">
+              <i class="fa-solid fa-user-tie"></i> - Assistente Administrativo
+            </button>
+
+            <div class="accordion-content">
+              <p class="sobre-administrativo"><strong>Sobre o curso:</strong></p>
+              <p>
+                Este curso prepara o aluno para atuar em rotinas administrativas,
+                organização de documentos, atendimento ao público e apoio a setores internos.
+              </p>
+
+              <p class="sobre-administrativo-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> Organização de arquivos</li>
+                <li><i class="fa-solid fa-caret-right"></i> Atendimento ao cliente</li>
+                <li><i class="fa-solid fa-caret-right"></i> Noções de informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Rotinas de escritório</li>
+              </ul>
+
+              <p class="sobre-administrativo-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">
+              <i class="fa-solid fa-display"></i> - Informática Básica</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header"><i class="fa-solid fa-pen-to-square"></i> - Designer Gráfico</button>
+            <div class="accordion-content">
+              <p class="sobre-designer"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-designer-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-designer-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="coluna-cursos">
+          <div class="accordion">
+            <button class="accordion-header"><i class="fa-solid fa-power-off"></i> - Hardware</button>
+            <div class="accordion-content">
+              <p class="hardware"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-hardware-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-hardware-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header"><i class="fa-brands fa-buffer"></i> - Auxiliar de RH</button>
+            <div class="accordion-content">
+              <p class="sobre-auxiliar-rh"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-auxiliar-rh-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-auxiliar-rh-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">🧾 Departamento Pessoal</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="coluna-cursos">
+          <div class="accordion">
+            <button class="accordion-header">🖨️ Operador de Caixa</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">📊 Gestão Empresarial</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">🧠 Preparação para o Mercado</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="coluna-cursos">
+          <div class="accordion">
+            <button class="accordion-header">🖨️ Operador de Caixa</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">📊 Gestão Empresarial</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-header">🧠 Preparação para o Mercado</button>
+            <div class="accordion-content">
+              <p class="sobre-informatica"><strong>Sobre o curso:</strong></p>
+              <p>Este curso é base para quem quer começar no mundo ca informática ou quer ter um conhecimento solido
+                geral sombre windows, word, excel internet e powerpoint, tudo no mesmo módulo</p>
+              <p class="sobre-informatica-2"><strong>Alguns dos tópicos abordados no curso:</strong></p>
+              <ul>
+                <li><i class="fa-solid fa-caret-right"></i> História da informática</li>
+                <li><i class="fa-solid fa-caret-right"></i> Digitação</li>
+                <li><i class="fa-solid fa-caret-right"></i> Painel de controle, barra de tarefas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Ferramentas administrativas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Gerenciamnteo dearquivos e pastas</li>
+                <li><i class="fa-solid fa-caret-right"></i> Dicos e sistem</li>
+              </ul>
+              <p class="sobre-informatica-3"><strong>Carga horária:</strong> 60 horas | Com Certificado registrado
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="sobre" class="pagina container">
+      <section class="sobre-container">
+        <section class="sobre">
+          <h1>Sobre a Unialcance</h1>
+          <p>COnhaça um pouco sobre a nossa históra</p>
+        </section>
+        <section class="historia_escola">
+          <section class="container">
+
+
+            <div class="historia-grid">
+
+              <div class="bloco">
+                <h3>O Início</h3>
+                <p>A história da escola começou com o nome Solução Fácil, sendo inicialmente uma filial de uma
+                  instituição localizada em Parobé. Com visão empreendedora e sensibilidade para o potencial da unidade,
+                  o diretor Márcio Scherer decidiu investir em Dois Irmãos, assumindo a escola e dando início a uma nova
+                  fase marcada por crescimento e transformação.</p>
+              </div>
+
+              <div class="bloco">
+                <h3>Evolução</h3>
+                <p>A partir desse momento, a escola passou a contar com um método de ensino próprio, focado na qualidade
+                  do aprendizado. Foram realizados investimentos em salas amplas e confortáveis, equipamentos modernos
+                  e, principalmente, na construção de um plano didático eficiente, com professores experientes e
+                  comprometidos com a formação dos alunos.</p>
+              </div>
+
+              <div class="bloco">
+                <h3>Hoje</h3>
+                <p>Com o tempo, a instituição evoluiu e passou a se chamar Unialcance, ampliando sua oferta de cursos
+                  para diversas áreas como administração, RH, beleza, farmácia, veterinária e assessoria jurídica. Hoje,
+                  a escola é reconhecida dentro e fora da cidade pela qualidade de ensino, sempre buscando atender às
+                  expectativas de alunos e famílias.</p>
+              </div>
+
+            </div>
+          </section>
+
+        </section>
+
+        <section class="container_escola">
+
+          <section class="nossa_escola">
+            <div class="texto_escola">
+              <h1>NOSSA ESCOLA</h1>
+              <p>A Unialcance é uma escola de cursos profissionalizantes que nasceu com o propósito de transformar vidas
+                por meio da educação prática e acessível.
+                Com uma ampla variedade de cursos — que vão desde Informática e Auxiliar Administrativo até Beleza,
+                Contabilidade e Veterinária — oferecemos capacitação de qualidade para quem busca crescer no mercado de
+                trabalho.
+                Nossa proposta é unir teoria e prática, preparando nossos alunos não apenas para conquistar vagas, mas
+                também para construir carreiras sólidas e empreender com confiança.</p>
+            </div>
+          </section>
+
+          <section class="imagem_escola">
+          </section>
+        </section>
+
+        <section class="container_direcao">
+          <section class="imagem_direcao">
+          </section>
+
+          <section class="direcao">
+            <div class="texto_direcao">
+              <h1>MENSAGEM DA DIREÇÃO</h1>
+              <p>“Na Unialcance acreditamos que cada aluno carrega dentro de si um potencial único, capaz de transformar
+                sua própria realidade e a comunidade onde vive.
+                Nosso compromisso é oferecer uma formação que una conhecimento técnico, valores humanos e incentivo ao
+                empreendedorismo.
+                Tenho orgulho de ver nossos estudantes conquistando espaço no mercado e realizando seus sonhos.
+                A Unialcance é mais do que uma escola: é um ponto de partida para novas oportunidades.”</p>
+              <p>— Diretor da Unialcance</p>
+            </div>
+          </section>
+
+        </section>
+
+        <section class="missao_visao_valores">
+          <div class="missao">
+            <h2>Missão</h2>
+            <p>Proporcionar educação profissionalizante de qualidade, formando cidadãos capacitados para o mercado de
+              trabalho e comprometidos com o desenvolvimento social.</p>
+          </div>
+          <div class="visao">
+            <h2>Visão</h2>
+            <p>Ser referência regional em cursos profissionalizantes, reconhecida pela excelência no ensino, inovação e
+              impacto positivo na vida dos alunos.</p>
+          </div>
+          <div class="valores">
+            <h2>Valores</h2>
+            <p>Compromisso – ensinar com dedicação.
+              Respeito – tratar todos com igualdade.
+              Inovação – atualizar sempre.
+              Valorização – acreditar no potencial do aluno.
+              Responsabilidade – contribuir para uma sociedade justa.</p>
+          </div>
+        </SECtion>
+
+      </section>
+    </section>
+
+    <section id="contato" class="pagina container">
+
+      <div class="contato-hero">
+        <h1>Entre em contato conosco</h1>
+        <p>Nossa equipe está pronta para tirar suas dúvidas e oferecer o melhor atendimento.</p>
+      </div>
+
+
+      <div class="info-contato-container">
+        <div class="contato-contato">
+
+          <div class="contato-end">
+            <div class="item">
+              <h1>Endereço:</h1>
+              <p>Av. Vinte e Cinco de Julho, 99 - Centro de Dois Irmãos/RS</p>
+            </div>
+
+            <div class="item">
+              <h1>Atendimento:</h1>
+              <p>Seg - Sex: 8:00 - 20:00 | Sábado: 9:00 - 19:00</p>
+            </div>
+
+            <div class="item">
+              <h1>Telefone Recepção:</h1>
+              <p>55 51 3564-6521</p>
+            </div>
+
+            <div class="item">
+              <h1>Email:</h1>
+              <p>contato@unialcance.com.br</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="contato-info">
+
+
+          <div class="contato-formulario">
+            <div class="mensagem-form">
+              <p>Envie uma mensagem</p>
+            </div>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="tel" name="tel" placeholder="Telefone" required>
+            <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+            <button type="submit">Enviar</button>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.769339122913!2d-51.088708882164354!3d-29.587468314233845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951946710d475b49%3A0x4c1043e13570d551!2sEscola%20de%20Educa%C3%A7%C3%A3o%20Profissional%20Unialcance%20-%20Dois%20Irm%C3%A3os!5e0!3m2!1spt-BR!2sbr!4v1753899318312!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section id="curriculo" class="pagina container">
+      <section class="fundo_curriculos">
+        <div class="foto_curriculos">
+          <div class="foto-descricao">
+            <h2>Currículos dos Alunos</h2>
+            <p>Abaixo você encontra os currículos dos alunos formados em nossas turmas. <br> Caso tenha interesse, faça
+              o download e entre em contato com o estudante para oportunidades profissionais.</p>
+            <a href="https://wa.me/555135646521" target="_blank" class="botao-contato-secretaria"
+              rel="noopener noreferrer">
+              Falar com a Secretaria no WhatsApp <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+          </div>
+        </div>
+        <section class="curriculos">
+
+
+          <div class="area">
+            <h3>Informática Básica</h3>
+            <ul class="lista-curriculos">
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto1.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Patricia Silva</span>
+                  <span class="idade-aluno">18 anos</span>
+                </div>
+                <a href="src/imagens/Curriculos/Curriculos/Currículo.pdf" download class="botao-download"><i
+                    class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto3.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Maria Souza</span>
+                  <span class="idade-aluno">20 anos</span>
+                </div>
+                <a href="pdfs/maria-souza.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="area">
+            <h3>Design Gráfico</h3>
+            <ul class="lista-curriculos">
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto2.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Ana Pereira</span>
+                  <span class="idade-aluno">17 anos</span>
+                </div>
+                <a href="pdfs/ana-pereira.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto9.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Ana Pereira</span>
+                  <span class="idade-aluno">19 anos</span>
+                </div>
+                <a href="pdfs/ana-pereira.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto10.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Ana Pereira</span>
+                  <span class="idade-aluno">15 anos</span>
+                </div>
+                <a href="pdfs/ana-pereira.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="area">
+            <h3>Desenvolvimento Web</h3>
+            <ul class="lista-curriculos">
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto4.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Carlos Mendes</span>
+                  <span class="idade-aluno">14 anos</span>
+                </div>
+                <a href="pdfs/carlos-mendes.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="area">
+            <h3>Administrativo</h3>
+            <ul class="lista-curriculos">
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto5.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Fernanda Lima</span>
+                  <span class="idade-aluno">15 anos</span>
+                </div>
+                <a href="pdfs/fernanda-lima.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="area">
+            <h3>Auxiliar Veterinário</h3>
+            <ul class="lista-curriculos">
+              <li>
+                <img class="avatar-aluno" src="src/imagens/Curriculos/foto8.jpg" alt="Foto de Lucas Rocha">
+                <div class="info-aluno">
+                  <span class="nome-aluno">Manoela Shuk</span>
+                  <span class="idade-aluno">16 anos</span>
+                </div>
+                <a href="pdfs/lucas-rocha.pdf" download class="botao-download"><i class="fa-solid fa-download"></i>
+                  Baixar currículo</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section id="professores" class="pagina container">
+
+
+      <section class="fundo-professores">
+        <h3>Professores e Equipe</h3>
+      </section>
+      <section class="equipe">
+        <h2>Professores</h2>
+
+        <div class="grade-professores">
+
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_1.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_2.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_3.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_4.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_5.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_6.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_7.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_8.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_10.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_9.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_11.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_12.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_13.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_14.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_15.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <div class="card-professor">
+            <img src="src/imagens/Professores/prof_14.avif" alt="Foto do professor">
+            <p class="disciplina">Professor de Matemática</p>
+            <p class="nome">Bruno Costa</p>
+            <p class="email">info@meusite.com</p>
+          </div>
+          <!-- Repetir os cards -->
+        </div>
+      </section>
+
+      <section class="outros-funcionarios">
+        <h2>Nossa Equipe</h2>
+        <div class="grid-funcionarios">
+          <div class="card-funcionario">
+            <h3>Karina Bastos</h3>
+            <p>Coordenadora</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Gustavo Munhoz</h3>
+            <p>Admissões</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Rosa Garcia</h3>
+            <p>Especialista em Financiamento</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Guto Lindoia</h3>
+            <p>Marketing</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Rosa Garcia</h3>
+            <p>Especialista em Financiamento</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Rosa Garcia</h3>
+            <p>Especialista em Financiamento</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Maria Rita</h3>
+            <p>Especialista em R|H</p>
+          </div>
+          <div class="card-funcionario">
+            <h3>Raisa Lima</h3>
+            <p>Especialista em vendas</p>
+          </div>
+          <!-- Adicione mais aqui -->
+        </div>
+      </section>
+
+
+
+    </section>
+
+    <section id="biblioteca" class="pagina">
+      <section id="biblioteca" class="biblioteca-container">
+        <div class="biblioteca-hero">
+          <h1>Biblioteca Unialcance</h1>
+          <p>Um espaço dedicado à pesquisa, estudo e desenvolvimento dos nossos alunos.</p>
+        </div>
+
+        <div class="biblioteca-cards">
+          <div class="card1">
+            <h2>📘 Acervo</h2>
+            <p>Livros técnicos, didáticos e materiais de apoio para todos os cursos.</p>
+            <div class="card1-foto">
+
+            </div>
+          </div>
+
+          <div class="card2">
+            <h2>🧠 Sala de Estudos</h2>
+            <p>Ambiente silencioso e confortável para leitura e concentração.</p>
+            <div class="card2-foto">
+
+            </div>
+          </div>
+
+          <div class="card3">
+            <h2>🔄 Empréstimo</h2>
+            <p>Alunos podem retirar livros mediante cadastro e comunicação com a secretária.</p>
+            <div class="card3-foto">
+
+            </div>
+          </div>
+        </div>
+
+        <h2 class="titulo-capas">Livros em Destaque</h2>
+        <div class="capas-grid">
+          <div class="capa"><img src="src/imagens/Biblioteca/livro1.webp"></div>
+          <div class="capa"><img src="src/imagens/Biblioteca/livro2.webp"></div>
+          <div class="capa"><img src="src/imagens/Biblioteca/livro3.webp"></div>
+          <div class="capa"><img src="src/imagens/Biblioteca/livro4.webp"></div>
+          <div class="capa"><img src="src/imagens/Biblioteca/livro4.webp"></div>
+        </div>
+
+
+
+        <div class="accordion">
+          <h2 class="titulo-acervo">Acervo por Área</h2>
+
+          <div class="item">
+            <button class="accordion-btn">
+              Informática
+              <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li>Windows e Office Essencial</li>
+                <li>Lógica de Programação</li>
+                <li>Montagem e Manutenção de Computadores</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="accordion-btn">
+              Administrativo
+              <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li>Fundamentos de Administração</li>
+                <li>Rotinas de Escritório</li>
+                <li>Comunicação Corporativa</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="accordion-btn">
+              Saúde e Veterinária
+              <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li>Primeiros Socorros</li>
+                <li>Anatomia Básica</li>
+                <li>Auxiliar Veterinário – Manual Ilustrado</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="accordion-btn">
+              Beleza e Estética
+              <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li>Colorimetria Capilar</li>
+                <li>Introdução à Estética Facial</li>
+                <li>Técnicas Profissionais de Cabelo</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+    </section>
+
+    <section id="certificado" class="pagina certificado">
+      <div class="certificado-hero">
+        <h1>Certificados Unialcance</h1>
+        <p>Certificado registrdo e aprovado</p>
+      </div>
+      <div class="container-certificado">
+
+        <div class="texto-certificado">
+          <h2>Certificação Unialcance</h2>
+
+          <p>
+            Ao concluir nossos cursos, o aluno recebe um certificado válido em todo o território nacional,
+            emitido pela Unialcance, com reconhecimento conforme as diretrizes educacionais vigentes.
+          </p>
+
+          <p>
+            O certificado apresenta carga horária, aproveitamento e identificação do aluno.
+            No verso, contém a descrição detalhada do conteúdo programático do curso realizado.
+          </p>
+
+          <ul>
+            <li><i class="fa-solid fa-circle-check"></i> Certificado válido em todo o Brasil</li>
+            <li><i class="fa-solid fa-circle-check"></i> Carga horária e nota incluídas</li>
+            <li><i class="fa-solid fa-circle-check"></i> Conteúdo programático no verso</li>
+            <li><i class="fa-solid fa-circle-check"></i> Emissão digital e rápida</li>
+          </ul>
+        </div>
+
+        <div class="imagens-certificado">
+          <img src="src/imagens/Certificado/fundo-certificado.jpg" alt="Certificado frente">
+          <img src="src/imagens/Certificado/fundo-certificado-verso.jpg" alt="Certificado verso">
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="material_apoio" class="pagina">
+
+      <!-- HERO (não mexe) -->
+      <div class="material-hero">
+        <div class="overlay">
+          <h1>Material de Apoio</h1>
+          <p>Baixe as apostilas dos cursos abaixo</p>
+        </div>
+      </div>
+
+      <!-- CONTEÚDO NOVO -->
+      <div class="container_materiais">
+        <div class="materiais">
+
+          <a href="src/imagens/Materiais/Materiais/Informativo.pdf" download class="card">
+            <h3>💻 Informática Básica</h3>
+            <p>Fundamentos do computador</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/design.pdf" download class="card">
+            <h3>🎨 Design Gráfico</h3>
+            <p>Criação visual e Canva</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/web.pdf" download class="card">
+            <h3>🌐 Desenvolvimento Web</h3>
+            <p>HTML, CSS e JavaScript</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+
+          <a href="pdf/hardware.pdf" download class="card">
+            <h3>🛠️ Hardware</h3>
+            <p>Montagem e manutenção</p>
+            <span>⬇️ Baixar PDF</span>
+          </a>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <img src="src/imagens/logo_branco_.png" alt="">
+        <p>Escola profissionalizante</p>
+
+        <div id="footer_social_media">
+          <a href="https://www.instagram.com/unialcancedoisirmaos/" class="footer-link" id="instagram" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/escolaunialcance/?locale=pt_BR" class="footer-link" id="Facebock"
+            target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+            <a href="https://wa.me/555135646521" class="footer-link" id="Whatsap" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+
+
+        </div>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Cursos</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Técnico</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Administrativo</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Beleza</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Eventos</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Sociais</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Alunos em destaque</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Recuperações</a>
+        </li>
+      </ul>
+
+      <div id="footer_newsletter">
+        <h3>Receba Novidades da Escola</h3>
+        <p>Cadastre seu e-mail para ficar por dentro dos cursos, eventos e novidades da Unialcance.</p>
+        <form action="..." method="POST">
+          <div id="newsletter-form">
+            <input type="email" ...>
+            <button type="submit">
+              <i class="fa-regular fa-envelope"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+
+    <div id="footer_copyright">
+      &#169 2025 - Unialcance - CNPJ: 15214514-000178
+    </div>
+  </footer>
+
+  <script src="src/javascript/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="src/javascript/menu.js"></script>
+  <script src="src/javascript/formados.js"></script>
+  <script src="src/javascript/depoimentos.js"></script>
+  <script src="src/javascript/biblioteca.js"></script>
+  <script src="src/javascript/cursos.js"></script>
+
+
+
+</body>
+
+</html>

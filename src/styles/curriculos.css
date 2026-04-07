@@ -1,0 +1,180 @@
+.fundo_curriculos{
+    background-color: #001429;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+
+    padding: 100px 0;
+}
+
+.foto_curriculos{
+    display: flex;
+    background-image: url(../imagens/Curriculos/fundo_curriculo.webp);
+    height: 200px;
+    width: 100vw;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foto-descricao h2{
+   color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.foto-descricao{
+  text-align: center;
+}
+.foto-descricao p{
+   color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.botao-contato-secretaria {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #25D366; /* Verde do WhatsApp */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;  
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao-contato-secretaria:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.curriculos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.curriculos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #001429;
+}
+
+.area {
+  margin-bottom: 40px;
+}
+
+.area h3 {
+  background-color: #001429;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.lista-curriculos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-curriculos li {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  gap: 15px;
+}
+
+.lista-curriculos li:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.avatar-aluno {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-aluno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+  flex-grow: 1;
+}
+
+.nome-aluno {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.idade-aluno {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.botao-download {
+  background-color: #2c6bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+.botao-download:hover {
+  background-color: #1d4ed8;
+}
+
+.botao-download i {
+  margin-right: 5px;
+}
+.botao-download:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .lista-curriculos li {
+    flex-direction: column; /* empilha nome e botão */
+    align-items: center;     /* centraliza horizontalmente */
+    text-align: center;      /* centraliza o texto */
+  }
+
+  .nome-aluno {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .botao-download {
+    width: 100%;
+    max-width: 200px;        /* evita que o botão fique largo demais */
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .foto_curriculos h2 {
+    font-size: 2rem;
+  }
+}
+    

@@ -1,0 +1,124 @@
+#depoimentos {
+    /*background: url('../imagens/depoimentos/fundo_depoimento.png') no-repeat center center/cover;*/
+    background-color: #3fa9ff;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 0 10px;
+    position: relative;
+
+}
+
+#depoimentos_alunos {
+    width: 500px;
+    align-self: flex-end;
+    height: auto;
+    z-index: 2;
+    position: relative; /* Garante que fique acima do swiper */
+}
+
+#depoimentos_content {
+    width: 50%;
+    z-index: 1;
+}
+
+
+.section-subtitle{
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+
+}
+
+.feedback {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 25px;
+  border-bottom: 4px solid red;
+   border-top: 1px solid red;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+
+.feedback-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.feedback.active {
+  display: flex;
+  opacity: 1;
+}
+
+
+
+.feedback-content h5 {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-content p {
+    color: white;
+    font-size: 1rem;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-content h5 span {
+    color: red;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #depoimentos {
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 16px;
+    }
+  
+    #depoimentos_alunos {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    #depoimentos_content {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .feedback {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .feedback-content h5 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .swiper-slide {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 768px) {
+  #depoimentos_alunos {
+    width: 100%;
+    max-width: none; /* remove limite */
+  }
+}

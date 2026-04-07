@@ -1,0 +1,132 @@
+.cursos-hero {
+    background-image: url(../imagens/Cursos/fundo_cursos.webp); /* coloque a foto da sala */
+    background-size: cover;
+    background-position: top;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+        margin-top: 100px;
+}
+
+.cursos-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.cursos-hero p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 6px black;
+}
+
+
+
+.cursos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1800px;
+  margin: 32px auto;
+}
+
+.cursos-grid {
+  align-items: start;
+}
+
+.coluna-cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.accordion {
+  border: 1px solid #001429;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%; /* ocupa a coluna inteira */
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #001429;
+  color: #fff;
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.accordion-header:hover {
+  background-color: #002b55;
+}
+
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 16px;  /* remove padding vertical */
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+.accordion-content.open{
+  padding: 16px;
+}
+
+.accordion-content .sobre-administrativo, .sobre-administrativo-3, .sobre-administrativo-2 {
+  background-color: #00bfff;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.accordion-content .sobre-informatica, .sobre-informatica-2, .sobre-informatica-3{
+  background-color: #2d4dff;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.accordion-content .sobre-designer, .sobre-designer-2, .sobre-designer-3{
+  background-color: #ff0040;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.accordion-content .hardware, .sobre-hardware-2, .sobre-hardware-3{
+  background-color: #ffc400;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.accordion-content .sobre-auxiliar-rh, .sobre-auxiliar-rh-2, .sobre-auxiliar-rh-3{
+  background-color: #00942c;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.accordion-content p {
+  padding: 16px 10px;
+  margin: 0;
+  color: #333;
+}
+
+.accordion-content ul {
+  padding-left: 18px;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.accordion-content li {
+  margin-bottom: 6px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .cursos-grid {
+    grid-template-columns: 1fr;
+  }
+}
